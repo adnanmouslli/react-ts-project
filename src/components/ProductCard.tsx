@@ -21,6 +21,7 @@ const ProductCard = ({product} : IProps) => {
         alt="product" 
         className="rounded-md mb-3 transform transition-transform duration-300 ease-in-out hover:scale-105"  />
 
+     
       <h3 className="text-black font-bold">{title}</h3>
     
       <p className="text-black">{txtSlicer(description , 60)}</p>
@@ -52,11 +53,8 @@ const ProductCard = ({product} : IProps) => {
         <Button className="bg-gradient-to-r from-purple-500 to-pink-500 ">DELETE</Button>  
         <Button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300">DELETE</Button>  
         
-        
       </div>
-
     </div>
-    
 )
 }
 

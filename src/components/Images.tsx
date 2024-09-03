@@ -6,7 +6,6 @@ interface IProps {
 
 }
 
-
 const Images = ({imageUrl , alt , className} : IProps) => {
   return (
     
