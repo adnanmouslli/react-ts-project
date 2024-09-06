@@ -1,4 +1,4 @@
-import { IProduct } from "../interfaces";
+import { IFormInput, IProduct } from "../interfaces";
 
 export const productList : IProduct[] = [
 
@@ -33,6 +33,38 @@ export const productList : IProduct[] = [
         imageUrl : "https://img.freepik.com/premium-photo/elegant-luxury-super-sports-car-future-design-driving-modern-city-highway_31965-114344.jpg"
     }
 
+
+];
+
+
+export const formInputList: IFormInput[] = [
+    {
+        id : "title" ,
+        name : "title" ,
+        label : "Product Title" ,
+        type : "text" 
+    },
+
+    {
+        id : "description" ,
+        name : "description" ,
+        label : "Product Description" ,
+        type : "text" 
+    },
+
+    {
+        id : "image" ,
+        name : "imageUrl" ,
+        label : "Product TitleImage Url" ,
+        type : "text" 
+    },
+
+    {
+        id : "price" ,
+        name : "price" ,
+        label : "Product Price" ,
+        type : "text" 
+    },
 
 ];
 
